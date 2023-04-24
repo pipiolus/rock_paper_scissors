@@ -14,3 +14,16 @@ const getComputerChoice = () => {
     return pcChoice;
 }
 
+
+
+weapons.forEach(button => {
+    button.addEventListener('click', () => {
+        const image = document.querySelector('img');
+        playerChoice = image.alt;
+        
+    })
+})
+
+const playRound = (playerChoice, pcChoice) => {
+    return console.log(playerChoice);
+}
