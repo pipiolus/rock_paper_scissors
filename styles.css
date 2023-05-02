@@ -15,7 +15,7 @@ h1 {
     align-items: center;
     border: 4px solid #d9d4d4;
     border-radius: 15px;
-    margin-top: 20vh;
+    margin-top: 5vh;
     height: 45vh;
     background-color: black;
 }
@@ -33,3 +33,22 @@ h1 {
     cursor: pointer;
     background-color: #f75c28;
 }
+
+#scores{
+    text-align: center;
+    font-size: 36px;
+}
+
+#result{
+    text-align: center;
+    font-size: 48px;
+    color: #292828;
+    margin-top: 10vh;
+}
+
+#winner{
+    text-align: center;
+    font-size: 50px;
+    color: #ba0f0f;
+}
+
